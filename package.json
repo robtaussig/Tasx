@@ -1,0 +1,46 @@
+{
+  "name": "react-redux-bp",
+  "description": "A minimalistic template for starting a React-Redux application.",
+  "version": "1.0.1",
+  "homepage": "https://github.com/robtaussig/reactReduxTemplate",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "redux",
+    "template",
+    "boilerplate",
+    "starter",
+    "javascript",
+    "web app"  
+  ],
+  "private": false,
+  "author": {
+    "email": "robert.taussig@gmail.com",
+    "name": "Robert Taussig",
+    "url": "https://www.robtaussig.com"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "node-sass-chokidar": "^0.0.3",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",    
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
